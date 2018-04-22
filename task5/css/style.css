@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 5000px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+/* Header top bar */
+.main{
+    width: 100%;
+    height: 45px;
+    background-color: #bfc0c1;
+}
+.main ul{
+    float: left;
+    margin-left: 180px;
+}
+.main li{
+    float: right;
+    padding: 10px;
+    border: .3px solid grey;
+}
+#fb{
+    transition: .5s linear;
+}
+
+#fb:hover{
+    background-color: #004993;
+}
+#in{
+    transition: .5s linear;
+}
+
+#in:hover{
+    background-color:#004993;
+}
+#tw{
+    transition: .5s linear;
+}
+
+#tw:hover{
+    background-color:#004993;
+}
+#dr{
+    transition: .5s linear;
+}
+
+#dr:hover{
+    background-color:#92008e;
+}
+#rs{
+    transition: .5s linear;
+}
+
+#rs:hover{
+    background-color:#c69603;
+}
+#call{
+    padding: 3px;
+    margin-left: 300px;
+    margin-top: 3px;
+    border: 0;
+}
+
+ #call span{
+    cursor: pointer;
+    padding-top:10px;
+    margin-left: 10px;
+    transition: .2s linear;
+    color: #4e5156;
+}
+ #call span:hover{
+    color: #00ba28;
+}
+#log {
+    margin-left: 5px;
+    border: 0;
+    margin-top: 3px;
+    padding: 3px;
+}
+#log span{
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+    transition: .2s linear;
+    color: #4e5156;
+}
+#log span:hover {
+    color: #00ba28;
+} 
+#regis {
+    margin-left: 5px;
+    border: 0;
+    margin-top: 3px;
+    padding: 3px;
+}
+#regis span{
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+    transition: .2s linear;
+    color: #4e5156;
+}
+#regis span:hover {
+    color: #00ba28;
+} 
+/* / Header top bar */
+
+/* /Nav bar */
+.wrap{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    
+}
+.wrap ul{
+    margin-left: 480px;
+    padding: 0px;
+    
+}
+.wrap li{
+        float: left;
+        margin-top: 40px;
+        margin-right: 60px;
+        cursor: pointer;
+        
+}
+ .logo img{
+   position: absolute;
+   left: 240px;
+   top: 0px;
+    width: 100px;
+    height: 100px;
+    
+}
+.wrap li:hover{
+    transition: .2s linear;
+    color: #00ba28;
+}
+.row{
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+
+}
+               /* slaydan sonra */
+.wrapper{
+    margin-left: 170px;
+    margin-top: 80px;
+    width: 330px;
+    height: 300px;
+    background-color: beige;
+    box-shadow: 10px 10px 8px 0px #888888;
+}
+.wrapper1{
+    margin-left: 70px;
+    margin-top: 80px;
+    width: 330px;
+    height: 300px;
+    background-color: beige;
+    box-shadow: 10px 10px 8px 0px #888888;
+}
+.wrapper2{
+    margin-left: 80px;
+    margin-top: 80px;
+    width: 330px;
+    height: 300px;
+    background-color: beige;
+    box-shadow: 10px 10px 8px 0px #888888;
+}
+.wrapper h4{
+    margin-left: 60px;
+    margin-top: 100px;
+    
+}
+
+
+
+
